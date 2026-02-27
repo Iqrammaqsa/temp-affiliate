@@ -11,10 +11,10 @@
 
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
+            --primary: #fe3905;
+            --primary-hover: #f18806;
             --success: #16a34a;
-            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --bg-gradient: linear-gradient(135deg, #f18806 0%, #fe3905 100%);
             --glass-bg: rgba(255, 255, 255, 0.9);
             --glass-border: rgba(255, 255, 255, 0.2);
             --text-main: #1e293b;
@@ -31,9 +31,9 @@
             font-family: 'Inter', system-ui, -apple-system, sans-serif;
             background: #f8fafc;
             background-image: 
-                radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-                radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
-                radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+                radial-gradient(at 0% 0%, hsla(13, 98%, 15%, 1) 0, transparent 50%), 
+                radial-gradient(at 50% 0%, hsla(33, 95%, 25%, 1) 0, transparent 50%), 
+                radial-gradient(at 100% 0%, hsla(29, 94%, 20%, 1) 0, transparent 50%);
             background-attachment: fixed;
             color: var(--text-main);
             display: flex;
@@ -68,7 +68,7 @@
             font-size: 26px;
             font-weight: 700;
             letter-spacing: -0.5px;
-            background: linear-gradient(to right, #2563eb, #7c3aed);
+            background: linear-gradient(to right, #fe3905, #f18806);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -108,8 +108,8 @@
         }
 
         input:focus {
-            border-color: var(--primary);
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+            border-color: #fe3905;
+            box-shadow: 0 0 0 4px rgba(254, 57, 5, 0.1);
         }
 
         button {
@@ -130,13 +130,13 @@
         .btn-generate {
             background: var(--primary);
             color: white;
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+            box-shadow: 0 4px 12px rgba(254, 57, 5, 0.2);
         }
 
         .btn-generate:hover {
             background: var(--primary-hover);
             transform: translateY(-1px);
-            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.3);
+            box-shadow: 0 6px 16px rgba(254, 57, 5, 0.3);
         }
 
         .btn-generate:active {
